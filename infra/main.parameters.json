@@ -355,6 +355,6 @@
     },
     "useAgenticRetrieval": {
       "value": "${USE_AGENTIC_RETRIEVAL=false}"
-    }
+   }
   }
 }

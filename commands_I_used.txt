@@ -1,0 +1,6 @@
+# Update the property
+az resource update --name cog-di-ypfg3idhbpjy2 --resource-group rg-resource-test --resource-type "Microsoft.CognitiveServices/accounts" --set properties.disableLocalAuth=false
+
+
+# Show the resource (full JSON of a resource)
+az resource show   --name cog-di-ypfg3idhbpjy2   --resource-group rg-resource-test   --resource-type "Microsoft.CognitiveServices/accounts"   --query "properties.provisioningState"
